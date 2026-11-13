@@ -1,0 +1,6 @@
+"-specs=/home/berenakpinar/exoglove2.0/build/bootloader/specs/picolibc.specs"
+-mlongcalls
+-fno-builtin-memcpy
+-fno-builtin-memset
+-fno-builtin-bzero
+-fno-rtti
