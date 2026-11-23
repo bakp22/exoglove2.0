@@ -1,0 +1,3 @@
+# Settings that differ from ESP-IDF defaults. Edit with `idf.py menuconfig`,
+# then `idf.py save-defconfig` to refresh this file.
+CONFIG_IDF_TARGET="esp32s3"

@@ -1,0 +1,9 @@
+# Run from the repo root:  doxygen docs/Doxyfile   ->  docs/html/index.html
+PROJECT_NAME     = "Soft Robotic Exoglove"
+INPUT            = firmware/main firmware/components README.md
+RECURSIVE        = YES
+FILE_PATTERNS    = *.c *.h *.md
+USE_MDFILE_AS_MAINPAGE = README.md
+OUTPUT_DIRECTORY = docs
+GENERATE_LATEX   = NO
+EXTRACT_ALL      = YES
