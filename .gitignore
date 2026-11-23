@@ -1,0 +1,21 @@
+# ESP-IDF build output (regenerate with idf.py build)
+build/
+firmware/build/
+# Downloaded by the IDF component manager from dependencies.lock
+managed_components/
+firmware/managed_components/
+sdkconfig.old
+
+# Host unit test build
+firmware/test/build/
+
+# Per-machine editor settings (contains local IDF paths)
+.vscode/settings.json
+firmware/.vscode/settings.json
+
+# Local credentials: copy secrets.h.example to secrets.h
+firmware/main/config/secrets.h
+
+# Generated docs
+docs/html/
+docs/latex/
